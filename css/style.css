@@ -1,0 +1,86 @@
+/*** Navbar css code ***/
+
+body {
+    background-color:grey;
+    
+}
+
+.navbar-brand {
+    background-color: rgb(62, 172, 172);
+    padding: 10px 20px;
+    font-style: normal;
+    border-radius: 10%;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+.nav-item {
+    border-right: 1px solid lightgray;
+}
+
+.nav-item:last-child {
+    border-right: none;
+}
+
+.navbar-nav .nav-link {
+    padding: 0, 0.5rem;
+}
+/**main element CSS code**/
+main {
+    background-color: lightgrey;
+}
+
+main .conatiner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content-box {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.float-left {
+    margin-right: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+h3 {
+    color: rgb(62, 172, 172);
+    ;
+}
+/**Footer CSS style**/
+.footer {
+    background-color: grey;
+    border-top: rgb(62, 172, 172) 5px solid;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+/**media query**/
+
+@media screen and (max-width: 991px) {
+   .navbar .container-lg,
+   .navbar-brand
+   {
+       display: block;
+   }
+   .navbar{
+       padding: 0px;
+   }
+   .navbar-brand{
+       margin-right: -1rem;
+       margin-left: -1rem;
+   }
+   .navbar-nav{
+       flex-direction: row;
+       justify-content: center;
+       padding: 5px;
+   }
+   
+}
