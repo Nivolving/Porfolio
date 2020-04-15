@@ -82,5 +82,8 @@ h3 {
        justify-content: center;
        padding: 5px;
    }
+   .float-left{
+       width: 100%;
+   }
    
 }
