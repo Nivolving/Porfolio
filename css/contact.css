@@ -65,9 +65,15 @@ h3{
     padding-top: 25px;
     padding-bottom: 25px;
     color:black;
-   
-    
-} 
+}
+a{
+    margin-right: 5px;
+    color: black;
+}
+  
+  a:hover {
+    color: rgb(62, 172, 172);
+}
 
 @media screen and (max-width: 991px) {
     .navbar .container-lg,

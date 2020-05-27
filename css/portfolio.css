@@ -81,7 +81,14 @@ footer {
   padding-bottom: 25px;
   color: black;
 }
+a{
+  margin-right: 5px;
+  color: black;
+}
 
+a:hover {
+  color: rgb(62, 172, 172);
+}
 /** media query **/
 
 @media screen and (max-width: 991px) {
