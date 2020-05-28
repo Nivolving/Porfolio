@@ -1,14 +1,17 @@
 /*** Navbar css code ***/
+*
+{
+  font-family: 'Oswald', sans-serif;
+}
+
 body {
-    background-color:grey;
-    
+    background-color:grey;   
 }
 
 .navbar-brand {
     background-color: rgb(62, 172, 172);
     padding: 10px 20px;
     font-style: normal;
-    border-radius: 10%;
 }
 
 .navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {

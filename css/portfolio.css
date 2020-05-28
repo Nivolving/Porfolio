@@ -1,15 +1,17 @@
 /*** Navbar css code ***/
+*{
+  font-family: 'Oswald', sans-serif;
+}
 
 body {
   background-color:grey;
-  
+  font-family: 'Oswald', sans-serif;  
 }
 
 .navbar-brand {
   background-color: rgb(62, 172, 172);
   padding: 10px 20px;
   font-style: normal;
-  border-radius: 10%;
 }
 
 .navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
@@ -62,7 +64,6 @@ h3 {
 }
 
 .img-responsive {
-  background-image: url("../images/porfolio.gif");
   background-repeat: no-repeat;
   width: 100%;
   position: relative;
